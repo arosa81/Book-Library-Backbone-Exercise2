@@ -8,6 +8,6 @@ $(function() {
   //   { title: 'American Psycho', author: 'Bret Easton Ellis', releaseDate: '1991', keywords: 'Novel Splatter' },
   //   { title: 'Eloquent JavaScript', author: 'Marijn Haverbeke', releaseDate: '2011', keywords: 'JavaScript Programming' }
   // ];
-
+  $('#releaseDate').datepicker();
   new app.LibraryView(books);
 });
